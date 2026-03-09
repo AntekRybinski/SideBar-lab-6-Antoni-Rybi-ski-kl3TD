@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         else if (id == R.id.nav_kalkulator) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_MAIN);
-            intent.addCategory(Intent.CATEGORY_APP_MAPS);
+            intent.addCategory(Intent.CATEGORY_APP_WEATHER);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             try {
                 startActivity(intent);
